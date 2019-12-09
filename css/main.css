@@ -201,3 +201,88 @@ text-align: center;
 .honey {
   text-align: center;
 }
+footer {
+background-color: #000;
+color:  #ffa7b6;
+  text-align: center;
+  margin: 0;
+  padding: .5rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.4rem;
+  }
+
+  .candy-img img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+  }
+
+  .candy-tri {
+    width: 170px;
+    margin: 0 auto;
+    padding-top: .9rem;
+  }
+
+  .candy-triangle {
+    width: 170px;
+    margin: 0 auto;
+    padding-top: .9rem;
+  }
+
+  .candyhex {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+
+}
+
+  @media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  .candy-img img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+  }
+
+  .img-flex {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .welcome {
+    background-color: rgba(167,255,240);
+    position: absolute;
+    margin: 0 auto;
+    left: 13rem;
+    top: 20rem;
+    border-radius: 10px;
+    color: #000;
+    max-width: 20em;
+  }
+
+}
