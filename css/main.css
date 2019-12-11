@@ -162,8 +162,8 @@ section {
 }
 
 .candyshop-body {
-color: #ffa7b6;
-text-align: center;
+  color: #ffa7b6;
+  text-align: center;
 }
 
 .candy-flex {
@@ -201,9 +201,10 @@ text-align: center;
 .honey {
   text-align: center;
 }
+
 footer {
-background-color: #000;
-color:  #ffa7b6;
+  background-color: #000;
+  color: #ffa7b6;
   text-align: center;
   margin: 0;
   padding: .5rem;
@@ -251,7 +252,7 @@ color:  #ffa7b6;
 
 }
 
-  @media only screen and (min-width: 60em) {
+@media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
@@ -275,7 +276,7 @@ color:  #ffa7b6;
   }
 
   .welcome {
-    background-color:#a7fff0;
+    background-color: #a7fff0;
     position: absolute;
     margin: 0 auto;
     left: 50%;
