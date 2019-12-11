@@ -269,7 +269,7 @@ color:  #ffa7b6;
     width: 200px;
   }
 
-  .img-flex {
+  .photo-candy {
     overflow: hidden;
     position: relative;
   }
@@ -278,10 +278,11 @@ color:  #ffa7b6;
     background-color:#a7fff0;
     position: absolute;
     margin: 0 auto;
-    left: 13rem;
-    top: 20rem;
+    left: 50%;
+    top: 50%;
     border-radius: 10px;
     color: #000;
+    transform: translate(-50%, -50%);
   }
 
 }
